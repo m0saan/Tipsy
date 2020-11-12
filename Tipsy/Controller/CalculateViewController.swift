@@ -10,11 +10,27 @@ import UIKit
 
 class CalculateViewController: UIViewController {
 
+    @IBOutlet weak var billTextField: UITextField!
+    @IBOutlet weak var zeroPCLabel: UIButton!
+    @IBOutlet weak var tenPCLabel: UIButton!
+    @IBOutlet weak var twentyPCLabel: UIButton!
+    @IBOutlet weak var splitNumberLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tipChanged(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        
+    }
+    
+    @IBAction func calculatePressed(_ sender: Any) {
+        
+    }
+    
 }
 
